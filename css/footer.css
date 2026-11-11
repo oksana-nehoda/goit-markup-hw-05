@@ -60,8 +60,23 @@
 }
 .footer .container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
 }
 .footer-info {
   margin-right: 120px;
+}
+.footer-subscribe {
+  margin-left: auto;
+}
+.footer-subscribe-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
